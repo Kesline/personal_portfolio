@@ -1,0 +1,18 @@
+DEPLOY YOUR PORTFOLIO — GITHUB PAGES
+
+1. Sign in to GitHub as username Kesline.
+2. Create a PUBLIC repository named Kesline.github.io (case insensitive) at https://github.com/new .
+3. Upload the CONTENTS of this folder to the repository root (index.html, cv.html, assets/, etc). Do not upload the outer folder itself.
+4. Go to Settings > Pages > Build and deployment > Source: Deploy from a branch. Select main and /(root); Save.
+5. When GitHub shows the published URL, open https://kesline.github.io/ and verify your site, especially CV and Download resume.
+6. Only after the URL is live, print the QR code supplied separately. The QR points to https://kesline.github.io/ .
+
+Git CLI alternative (run inside this unzipped directory):
+git init
+git add .
+git commit -m "Publish academic portfolio"
+git branch -M main
+git remote add origin https://github.com/Kesline/Kesline.github.io.git
+git push -u origin main
+
+WARNING: All website files, including the included resume PDF with your phone/email, will be publicly available. Review them before publishing.
